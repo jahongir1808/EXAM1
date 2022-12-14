@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+    .home-cards {
+      position: static;
+      flex-direction: column;
+    }
+    .home-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      margin: 10px 0;
+      padding: 0 0 0 20px;
+    }
+  } 

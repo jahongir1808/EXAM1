@@ -62,13 +62,10 @@ header {
   position: absolute;
   bottom: -102px;
   display: flex;
-  justify-content: space-between;
-}
-.margin {
-  margin: 0 32px;
+  gap: 40px;
 }
 .home-card {
-  width: 33.33%;
+  width: 30%;
   height: 210px;
   padding: 39px 0 35px 40px;
   background: #ffffff;
