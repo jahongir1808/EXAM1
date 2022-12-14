@@ -1,4 +1,7 @@
 @media (max-width: 500px) {
+  .navbar-shrink {
+    padding: 15px 0;
+  }
   .home-content {
     padding: 90px 0 100px;
   }
