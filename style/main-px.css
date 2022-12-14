@@ -187,12 +187,6 @@ header {
   letter-spacing: 0.2px;
   color: #737373;
 }
-@import "mediacss/media\(550px\).css";
-@import "mediacss/media\(1200px\).css";
-@import "mediacss/media\(400px\).css";
-@import "mediacss/media\(500px\).css";
-@import "mediacss/media\(650px\).css";
-@import "mediacss/media\(750px\).css";
 /* ABOUT_US */
 .about_us {
   margin: 294px 0 205px;
@@ -955,6 +949,28 @@ nav {
     padding: 7px 25px;
     font-size: 1.75rem;
   }
+  .about_us-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .about_us-card {
+    width: 100%;
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
   #navbar-responsive a {
     font-size: 1.9rem;
   }
@@ -1054,7 +1070,11 @@ nav {
   }
   .about_us-card {
     width: 100%;
-    margin: 0 15px 0;
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .about_us-card p {
     font-size: 1.5rem;
