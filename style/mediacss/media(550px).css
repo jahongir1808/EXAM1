@@ -54,6 +54,10 @@
   }
   .advice-card {
     width: 100%;
-     flex-direction: column;
+    flex-direction: column;
+  }
+  .services2-content h2 {
+    width: 100%;
+    text-align: center;
   }
 }
