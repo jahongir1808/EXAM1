@@ -1,0 +1,59 @@
+@media (max-width: 550px) {
+  .navbar-menus {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  #navbar-responsive {
+    position: absolute;
+    background-color: var(--nav-color);
+    display: block;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    transition: 1s;
+  }
+  #navbar-responsive a {
+    display: inline-block;
+    width: 100%;
+    transition: 1s;
+    font-size: 2.25rem;
+    padding: 30px 0;
+    color: var(--main-color);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  #navbar-responsive a:hover {
+    color: var(--hover-color);
+  }
+  #navbar-responsive ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    height: 100vh;
+    list-style-type: none;
+  }
+  #close-navbar {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .advice-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .advice-card {
+    width: 100%;
+     flex-direction: column;
+  }
+}

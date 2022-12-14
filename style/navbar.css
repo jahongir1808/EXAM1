@@ -1,0 +1,50 @@
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  transition: 0.5s;
+  background: var(--nav-color);
+  padding: 28px 0;
+}
+.navbar-shrink {
+  padding: 20px 0;
+}
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-text a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: var(--heading-color);
+}
+.navbar-links li {
+  display: inline-block;
+  padding-left: 28px;
+}
+.navbar-link {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--main-color);
+}
+.navbar-link:hover {
+  color: var(--hover-color);
+  transition: 0.5s;
+}
+.hamburger {
+  display: none;
+}
+#navbar-responsive {
+  display: none;
+}

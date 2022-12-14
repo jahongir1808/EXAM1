@@ -1,0 +1,39 @@
+@media (max-width: 650px) {
+  .about_us {
+    margin: 200px 0 150px;
+  }
+  .about_us-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .about_us-card {
+    width: 50%;
+    flex-direction: column;
+  }
+  .about_us-card p {
+    font-size: 1.7rem;
+  }
+  .about_us-card h2 {
+    font-size: 4rem;
+  }
+  .end {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .end-content p {
+    text-align: center;
+  }
+  .end-icons img {
+     text-align: center;
+  }
+  .contact_us-input a {
+    padding: 10px 30px;
+  }
+ 
+}

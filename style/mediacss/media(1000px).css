@@ -1,0 +1,57 @@
+@media (max-width: 1000px) {
+  .services2 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .services2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .services2-content p {
+    width: 100%;
+    text-align: center;
+  }
+  .services-bg {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+  .advice-card {
+    margin: 0 0 60px 0;
+    width: 45%;
+  }
+  .info-about {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .company-info,
+  .legal,
+  .features,
+  .resources,
+  .touch {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 50%;
+  }
+  .touch {
+    width: 100%;
+  }
+  .touch ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
